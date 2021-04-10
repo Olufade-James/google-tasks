@@ -27,12 +27,13 @@ main{
 }
 
 .btns_container{
-    margin-top: 1em;
+    margin: 20px auto;
 
 }
 .btns_container button{
     padding:1em;
     border:none;
+    border-radius: 0.5em;
 
 }
 
@@ -96,4 +97,12 @@ button {
     right: 10px;
     bottom: 0;
     margin: auto;
+}
+
+.language{
+bottom: ;
+}
+
+.language a{
+    color: blue;
 }
