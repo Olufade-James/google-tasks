@@ -143,5 +143,9 @@ input-group{
     display: inline-block;
     width: 50%;
     padding: 12px;
-    background-color: ;
+    background-color: #fcfcfc;
+    float:left;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
 }
