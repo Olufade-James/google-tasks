@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;700;800;900&family=Yeseva+One&display=swap');
+
+*, html , body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.top-most {
+    height: 80%;
+    width: 100%;
+}
+  
+.med p {
+    font-family: "Yeseva One", sans-serif;  
+    color: #1F2B6C;
+}
+
+.dical p {
+  color: #159EEC;
+  font-family: "Yeseva One", sans-serif;    
+}
+
+.emergency-text p {
+    color: #1F2B6C;
+    font-family: "Work Sans", sans-serif;
+}
+.emergency-number p {
+  color: #159EEC;
+  font-family: "Work Sans", sans-serif;
+}
+
+.work-hour-text {
+    color: #1F2B6C;
+    font-family: "Work Sans", sans-serif;
+}
+.work-hour-times {
+    color: #159EEC;
+  font-family: "Work Sans", sans-serif;
+}
+
+.location-text  {
+    
+    color: #1F2B6C;
+    font-family: "Work Sans", sans-serif;
+}
+.location-address {
+    
+    color: #159EEC;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+.navbar {
+    background-color: #1F2B6C !important;
+}
+.med-nav p {
+    font-family: "Yeseva One", sans-serif;  
+    color: #159EEC;
+}
+
+.dical-nav p {
+  color: white;
+  font-family: "Yeseva One", sans-serif;    
+}
+.nav-btn {
+    background-color: #BFD2F8 !important;
+    color:#1F2B6C !important ;
+}
+.nav-link {
+    font-family: "Work Sans", sans-serif;
+}
+
+.nav-toggler-btn {
+    border: none !important;
+    font-family: "Work Sans", sans-serif;
+}
+
+.subhead_image img {
+    
+ width: 100%;
+ height: 100%;
+ opacity: 0.5;  
+}
+
+.subhead_image  { 
+    height: 33%; 
+    width: 100%;  
+}
+
+.subhead_image p {
+  font-family: "Work Sans", sans-serif;
+    color: #1F2B6C;
+    bottom: 8rem;
+    left: 12rem;
+}
+
+.subhead_image h4 {
+  font-family: "Yeseva One", sans-serif;
+    color: #1F2B6C;
+    bottom: 6rem;
+    left: 12rem;
+
+}
+
+.search-bar {
+    border: 2px solid #1F2B6C;
+    width: 50%;
+    background-color: #1F2B6C;
+      border-radius: 5px;
+      
+}
+.news-text h4 {
+    font-family: "Yeseva One", sans-serif;
+    color: #1F2B6C;
+}
+.news-box .news-section .article p {
+    margin-bottom: 0;
+}
+
+.link-btn {
+    background-color: #BFD2F8;
+}
+
+.link-btn p
+{
+    font-family: "Work Sans", sans-serif;
+    color: #1F2B6C;
+}
+
+.link-btn .fa
+{
+    color: #1F2B6C;
+}
+.icon img {
+    margin-left: auto;
+    height: 37px;
+}
+
+.contacts-section {
+    height: 363px;
+    width: auto;
+    margin-top: 170px;
+}
+
+.in-touch p {
+    color: #159EEC;
+    font-family: "Work Sans", sans-serif;
+}
+
+.in-touch h3 {
+    color: #1F2B6C;
+    font-family: "Yeseva One", sans-serif;   
+}
+
+.view-contacts {
+    width: auto;
+}
+
+
+.contacts-cards {
+    width: 233px;
+    background-color:  #BFD2F8;
+    height: 233px;    
+}
+
+
+.contacts-details p {
+    font-family: "Work Sans", sans-serif;
+    color: #1F2B6C;
+    
+}
+
+.contacts-dept p {
+    font-family: "Work Sans", sans-serif;
+    color: #1F2B6C;
+}
+
+.contacts-cards2 {
+    width: 233px;
+    background-color:  #1F2B6C;
+    height: 233px;    
+}
+
+.contacts-details2 p {
+    font-family: "Work Sans", sans-serif;
+    color: #BFD2F8;
+    
+}
+
+.contacts-dept2 p {
+    font-family: "Work Sans", sans-serif;
+    color: #BFD2F8;
+}
+.invert { filter: grayscale(10); }
+
+footer {
+    background-color: #1F2B6C;
+}
+
+ .footer-medical h3 {
+    color: #BFD2F8;
+    font-family: "Yeseva One", sans-serif;
+}
+
+.footer-medical p {
+    font-family: "Work Sans", sans-serif;    
+}
+
+.footer-links {
+    font-family: "Work Sans", sans-serif;    
+}
+
+.footer-contact {
+    font-family: "Work Sans", sans-serif;    
+}
+.footer-news-email input {    
+    background: url("img/Vector\ \(1\).svg") center right no-repeat ;   
+    background-color: #BFD2F8;
+    border: none !important;       
+}
+::placeholder {
+    color: #1F2B6C;    
+}
+.footer-news-email {
+    border-right: 16rem solid #BFD2F8 ;
+}
+
+hr {
+    width: 100%;
+    background-color: #BFD2F8 !important;
+    opacity: 1 !important;
+    padding-top: 0.1rem;
+}
+.footer-copyright {
+    font-family: "Work Sans", sans-serif;    
+
+}
+
+.footer-socials  {
+    color: #BFD2F8 !important;
+}
+
+.footer-socials .fab {
+    font-size: 1.5rem ;
+}
+
+
+@media  (min-width : 800px) {
+    .meddical-nav 
+    {        
+        display: none !important;
+        
+    }
+    .med-nav
+    {
+        display: none;
+    }
+    .dical-nav
+    {
+        display: none;
+    }
+}
+
+
+@media  (max-width: 770px) {
+    .subhead_image p
+  {  
+      bottom: 4.5rem;
+      left: 6rem;
+  }
+
+  .subhead_image h4
+  { 
+      bottom: 3rem;
+      left: 6rem;
+  }
+}
+
+@media  (max-width: 425px) {
+  .subhead_image img
+  {
+    opacity: 1;
+  }
+    .subhead_image p
+  {
+      display: none;
+  }
+
+  .subhead_image h4
+  {
+    display: none;           
+  }
+  
+  .line-color
+  {
+    padding-top: 3px !important; 
+  }
+}
+
